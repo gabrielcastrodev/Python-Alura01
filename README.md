@@ -12,7 +12,7 @@
 - Teste de laços de repetição
 - Contadores
 
-##Author
+# Author
 `
 @gabrielcastrodev
 `
