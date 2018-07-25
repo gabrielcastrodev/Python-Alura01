@@ -5,10 +5,9 @@ print()
 
 numero_secreto = 42
 total_tentativas = 3
-rodada = 1
 
-while(rodada <= total_tentativas):
-    print("Tentativa,", rodada, "de", total_tentativas)
+for rodada in range (1, total_tentativas + 1):
+    print("Tentativa, {} de {}".format(rodada, total_tentativas))
     chute = int(input("Digite o seu número: "))
     acertou = chute == numero_secreto
     maior = chute > numero_secreto
